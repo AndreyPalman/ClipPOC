@@ -1,7 +1,11 @@
 import React from 'react';
-
-function Chat (){
-    return <h1>Chat</h1>
-}
-
+import { Link } from 'react-router-dom';
+const Chat = () => {
+    return (
+        <div>
+            <h5>Welcome to chat</h5>
+            <Link to='/'>return</Link>
+        </div>
+    );
+};
 export default Chat;

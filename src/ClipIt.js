@@ -1,8 +1,11 @@
-
 import React from 'react';
-
-function ClipIt (){
-    return <h1>Clip It</h1>
-}
-
+import { Link } from 'react-router-dom';
+const ClipIt = () => {
+    return (
+        <div>
+            <h5>Welcome to clip it</h5>
+            <Link to='/'>return</Link>
+        </div>
+    );
+};
 export default ClipIt;
